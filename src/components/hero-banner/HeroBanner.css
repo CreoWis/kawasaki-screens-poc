@@ -57,12 +57,12 @@
 }
 
 .hero-banner__button.secondary {
-  background-color: rgb(101, 99, 99);
+  background-color: rgb(104, 103, 103);
   color: white;
 }
 
 .hero-banner__button.secondary:hover {
-  background-color: darkgray;
+  background-color: rgb(88, 88, 88);
 }
 .hero-banner__scroll-hint {
   font-size: 0.8rem;

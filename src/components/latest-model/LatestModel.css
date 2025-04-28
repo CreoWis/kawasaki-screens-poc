@@ -60,3 +60,6 @@
 .model-hero-banner__button.secondary {
   background-color: #404040;
 }
+.model-hero-banner__button.secondary:hover {
+  background-color: #262626;
+}
