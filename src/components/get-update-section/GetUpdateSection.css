@@ -1,0 +1,61 @@
+.bike-update-section {
+  background-color: #f1f1f1; /* Light gray background */
+  padding: 4rem 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bike-update-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bike-update-section__image img {
+  width: 100%;
+  max-width: 500px; /* Max width for images */
+  height: auto;
+  border-radius: 8px;
+}
+
+.bike-update-section__content {
+  max-width: 600px;
+  text-align: left;
+  text-align: center;
+}
+
+.bike-update-section__title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.bike-update-section__description {
+  font-size: 1.125rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.bike-update-section__release-date {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.bike-update-section__button {
+  background-color: #16a34a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.bike-update-section__button:hover {
+  background-color: #15803d;
+}

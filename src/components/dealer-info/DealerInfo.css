@@ -1,0 +1,56 @@
+.dealer-info {
+  padding: 8rem 2rem;
+}
+
+.dealer-info__container {
+  gap: 3rem;
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.dealer-info__details,
+.dealer-info__address {
+  flex: 1;
+}
+
+.dealer-info__address {
+  padding-top: 2rem;
+}
+
+.dealer-info__header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.dealer-info__sub-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+.dealer-info__description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.dealer-info__contact p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.dealer-info__address-details {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .dealer-info__container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

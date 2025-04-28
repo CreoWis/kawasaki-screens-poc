@@ -1,0 +1,61 @@
+.explore-section {
+  padding: 6.5rem 0; /* approx py-26 */
+  height: 100vh;
+  background-color: #212121;
+}
+
+.explore-section__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem; /* small horizontal padding */
+}
+
+.explore-section__title {
+  font-size: 1.875rem; /* 30px */
+  font-weight: bold;
+  margin-bottom: 3rem; /* 48px */
+  color: white;
+}
+
+.explore-section__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem; /* 24px gap */
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .explore-section__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.explore-section__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; /* 16px */
+  background-color: white;
+  border-radius: 0.5rem; /* 8px */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.explore-section__card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.explore-section__icon {
+  width: 13rem; /* 52 * 4px = 208px */
+  height: 5rem; /* 20 * 4px = 80px */
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.explore-section__name {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+}
