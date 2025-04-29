@@ -1,9 +1,0 @@
-{
-  "heroBanner": {
-    "title": "Authorized Dealers",
-    "subtitle": "Your trusted partners in performance and quality.",
-    "buttonLabel": "Find a Dealer",
-    "buttonHref": "/dealers/find",
-    "backgroundImage": "/images/banners/dealer-banner.jpg"
-  }
-}
