@@ -1,0 +1,81 @@
+.kcare-section {
+  padding: 10rem;
+}
+
+.kcare-top {
+  display: flex;
+  gap: 3rem;
+}
+
+.kcare-image-container {
+  flex: 2;
+}
+
+.kcare-large-image {
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+}
+
+.kcare-text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.kcare-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.kcare-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.kcare-button {
+  background-color: #16a34a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.kcare-button:hover {
+  background-color: #15803d;
+}
+
+.kcare-small-images {
+  display: flex;
+  gap: 10px;
+}
+
+.kcare-small-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.kcare-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.kcare-navigation-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.kcare-navigation-item.active .kcare-arrow {
+  color: lightgreen;
+}
+
+.kcare-arrow {
+  font-size: 24px;
+}

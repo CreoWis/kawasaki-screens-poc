@@ -1,0 +1,59 @@
+/* Add common styles for the bike selector */
+.vehicle-selector-ui__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.selector-ui__section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.selector-ui__title {
+  font-size:3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.selector-ui__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.selector-ui__select {
+  width: 30vw;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.selector-ui__button {
+  padding: 0.75rem 2rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selector-ui__button:hover {
+  background-color: #45a049;
+}
+
+.vehicle-section__image {
+  background-color: #bbbbbbb0;
+  height: 200px;
+  width: 60vw;
+  margin: auto;
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 4rem;
+}

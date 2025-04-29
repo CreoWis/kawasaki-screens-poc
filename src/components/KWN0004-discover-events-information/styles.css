@@ -1,0 +1,139 @@
+.discover-event {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Full screen height */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  color: white;
+  padding: 3rem 0;
+}
+
+.discover-event__overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #212121;
+  z-index: 1;
+}
+
+.discover-event__content {
+  position: relative;
+  z-index: 10;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.discover-event__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.discover-event__description {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.discover-event__date {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.discover-event__schedule {
+  margin-bottom: 2.5rem;
+}
+
+.discover-event__schedule-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.discover-event__schedule-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.discover-event__schedule-item {
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.discover-event__speakers {
+  margin-bottom: 3rem;
+}
+
+.discover-event__speakers-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.discover-event__speakers-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.discover-event__speaker-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.discover-event__speaker-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.discover-event__speaker-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.discover-event__speaker-title {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.discover-event__button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #16a34a;
+  border-radius: 9999px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-top: 2rem;
+}
+
+.discover-event__button:hover {
+  background-color: #15803d;
+}
+
+@media (max-width: 768px) {
+  .discover-event__speakers-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .discover-event__speakers-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,65 @@
+.bike-spotlight {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10rem;
+  background-color: #bbbbbb;
+}
+
+.bike-spotlight__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.bike-spotlight__content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.bike-spotlight__heading {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.bike-spotlight__subheading {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.bike-spotlight__buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.bike-spotlight__button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #16a34a; /* dark gray */
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.bike-spotlight__button:hover {
+  background-color: #15803d;
+}
+
+.bike-spotlight__button.secondary {
+  background-color: #404040;
+}
+.bike-spotlight__button.secondary:hover {
+  background-color: #262626;
+}
