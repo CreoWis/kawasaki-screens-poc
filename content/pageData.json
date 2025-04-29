@@ -232,6 +232,49 @@
         }
       },
       {
+        "type": "KWN0001-bike-explorer-with-images",
+        "data": {
+          "title": "Explore Kawasaki Bikes",
+          "categories": [
+            {
+              "id": "1",
+              "name": "Supersport",
+              "icon": "https://placehold.co/600x400?text=."
+            },
+            {
+              "id": "2",
+              "name": "Adventure Touring",
+              "icon": "https://placehold.co/600x400?text=."
+            },
+            {
+              "id": "3",
+              "name": "Electric Bikes",
+              "icon": "https://placehold.co/600x400?text=."
+            },
+            {
+              "id": "4",
+              "name": "Touring Bikes",
+              "icon": "https://placehold.co/600x400?text=."
+            },
+            {
+              "id": "5",
+              "name": "Daily Commuters",
+              "icon": "https://placehold.co/600x400?text=."
+            },
+            {
+              "id": "6",
+              "name": "Off-Road Bikes",
+              "icon": "https://placehold.co/600x400?text=."
+            },
+            {
+              "id": "7",
+              "name": "Long Distance Tourers",
+              "icon": "https://placehold.co/600x400?text=."
+            }
+          ]
+        }
+      },
+      {
         "type": "DLR0003-dealer-information-with-address-and-location",
         "data": {
           "title": "Dealer Location",
