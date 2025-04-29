@@ -1,24 +1,10 @@
-import pageData from "../../content/data.json";
-import { DealerInfo } from "@/components/dealer-info/DealerInfo";
-import { BikeHighlight } from "@/components/bike-highlight/BikeHighlight";
-import { Footer } from "@/components/footer/Footer";
-import { GetUpdateSection } from "@/components/get-update-section/GetUpdateSection";
-import { ExploreSection } from "@/components/explore-section/ExploreSection";
-import OnlinePointer from "@/components/online-pointer/OnlinePointer";
-import { DealerHeroBanner } from "@/components/dealer-hero-banner/DealerHeroBanner";
-import { LatestModel } from "@/components/latest-model/LatestModel";
+import { PageRenderer } from "@/components/dynamic-renderer/PageRenderer";
+import pageData from "../../content/pageData.json";
 
 const Dealers = () => {
   return (
     <>
-      <DealerHeroBanner data={pageData} />
-      <BikeHighlight data={pageData} />
-      <ExploreSection data={pageData} />
-      <DealerInfo data={pageData} />
-      <LatestModel data={pageData} />
-      <OnlinePointer data={pageData} />
-      <GetUpdateSection data={pageData} />
-      <Footer data={pageData} />
+      <PageRenderer sections={pageData[1]?.dealerPage ?? []} />
     </>
   );
 };
