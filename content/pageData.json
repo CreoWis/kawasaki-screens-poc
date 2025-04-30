@@ -124,42 +124,6 @@
         }
       },
       {
-        "type": "KWN0004-discover-events-information",
-        "data": {
-          "eventTitle": "Discover the Future of Technology",
-          "eventDescription": "Join us for an exciting event where we explore the latest trends in technology, AI, and innovation.",
-          "eventDate": "July 20, 2025",
-          "speakers": [
-            {
-              "name": "John Doe",
-              "title": "Keynote Speaker",
-              "image": "https://placehold.co/600x400?text=."
-            },
-            {
-              "name": "Jane Smith",
-              "title": "Tech Expert",
-              "image": "https://placehold.co/600x400?text=."
-            },
-            {
-              "name": "Mark Johnson",
-              "title": "AI Specialist",
-              "image": "https://placehold.co/600x400?text=."
-            }
-          ],
-          "schedule": [
-            "10:00 AM - Opening Remarks",
-            "11:00 AM - Keynote by John Doe",
-            "1:00 PM - Lunch Break",
-            "2:00 PM - Tech Talk by Jane Smith",
-            "3:30 PM - AI Session by Mark Johnson",
-            "5:00 PM - Closing Remarks"
-          ],
-          "buttonLabel": "Get Your Ticket",
-          "buttonHref": "/tickets",
-          "backgroundImage": "https://example.com/event-background.jpg"
-        }
-      },
-      {
         "type": "KWN0005-kcare-information",
         "data": {
           "title": "K-Care",

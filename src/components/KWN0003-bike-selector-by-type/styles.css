@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #b5b5b554;
 }
 
 .selector-ui__section {
