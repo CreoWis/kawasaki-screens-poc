@@ -54,7 +54,7 @@ export const KWN0003BikeSelectorByType = ({
         {/* Image Section */}
         <div className="vehicle-section__image">
           {/* Dynamically set image source based on selected bike */}
-          <img src={`/${bike}.jpg`} alt={bike} />
+          {/* <img src={`/${bike}.jpg`} alt={bike} /> */}
         </div>
       </div>
     </section>
